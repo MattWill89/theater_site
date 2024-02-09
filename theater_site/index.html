@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <title>Griot Theatre Company - Featured Shows</title>
+</head>
+
+<body>
+    <header>
+        <h1>Griot Theatre Company</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Our Actors</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="featured-section">
+        <h2>FEATURED SHOWS</h2>
+        <div class="featured-show">
+            <img src="img/theater-image-background.png" alt="Fun Acting" class="featured-show-image">
+        </div>
+    </section>
+
+
+
+
+    
+    <section class="featured-shows">
+        <div class="column">
+            <article class="show">
+                <img src="img/a-raisin-in-the-sun-theater-1.png" alt="A Raisin In The Sun" class="show-image">
+                <h2>A Raisin In The Sun</h2>
+                <p>Date: April 6, 2020 - March 20, 2020</p>
+                <p>Location: Griot Theatre, 233 State St, Chicago, IL</p>
+                <p>Price: $75</p>
+            </article>
+        </div>
+    
+        <div class="column">
+            <article class="show">
+                <img src="img/matilda_play-unsplash.jpg" alt="Matilda" class="show-image">
+                <h2>Matilda</h2>
+                <p>Date: April 6, 2020 - March 20, 2020</p>
+                <p>Location: Griot Theatre, 233 State St, Chicago, IL</p>
+                <p>Price: $75</p>
+            </article>
+        </div>
+    
+        <div class="column">
+            <article class="show">
+                <img src="img/The_Trip_to_Bountiful-unsplash.jpg" alt="The Trip to Bountiful" class="show-image">
+                <h2>The Trip to Bountiful</h2>
+                <p>Date: April 6, 2020 - March 20, 2020</p>
+                <p>Location: Griot Theatre, 233 State St, Chicago, IL</p>
+                <p>Price: $75</p>
+            </article>
+        </div>
+    </section>
+    
+    <style>
+        .featured-shows {
+            display: flex;
+            justify-content: space-between;
+        }
+    
+        .column {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .featured-section {
+            text-align: center;
+        }
+
+        .featured-show {
+            position: relative;
+            display: inline-block;
+        }
+
+        .featured-show h2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            font-size: 24px;
+        }
+
+        .featured-show img {
+            max-width: 100%;
+            height: auto;
+        }
+
+
+        .map {
+            flex: 1; 
+            order: 1; 
+        }
+
+        .mapimage {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+    
+
+
+    </section>
+
+    </section>
+
+    <footer>
+        <!-- Footer -->
+        <footer>
+            <div class="bottom">
+                <div class="map">
+                    <img src="img/chicago map screenshot.png" alt="Map" class="mapimage">
+                </div>
+                <div class="footinfo">
+                    <div class="foothead">Info</div>
+                    <div class="location">
+                        <p class="tiny"><i class="fas fa-map-marker-alt"></i> Chicago, IL 60611 United States</p>
+                    </div>
+                    <div class="email">
+                        <p class="tiny"><i class="far fa-envelope"></i> example@example.com </p>
+                    </div>
+                    <div class="phone">
+                        <p class="tiny"><i class="fas fa-mobile-alt"></i> Call Us: 708-555-4488</p>
+                    </div>
+                </div>
+                <div class="footshows">
+                    <div class="foothead">Shows</div>
+                    <div class="venue">
+                        <a href="#"><p class="tiny">The Piano Lesson</p></a>
+                    </div>
+                    <div class="venue">
+                        <a href="#"><p class="tiny">A Raisin in the Sun</p></a>
+                    </div>
+                    <div class="venue">
+                        <a href="#"><p class="tiny">Fame</p></a>
+                    </div>
+                    <div class="venue">
+                        <a href="#"><p class="tiny">The Color Purple</p></a>
+                    </div>
+                </div>
+                <div class="social">
+                    <div class="foothead">Social</div>
+                    <div class="media">
+                        <a href="#"><p class="tiny"><i class="fab fa-facebook"></i> Facebook</p></a>
+                    </div>
+                    <div class="media">
+                        <a href="#"><p class="tiny"><i class="fab fa-twitter-square"></i> Twitter</p></a>
+                    </div>
+                    <div class="media">
+                        <a href="#"><p class="tiny"><i class="fab fa-youtube"></i> Youtube</p></a>
+                    </div>
+                    <div class="media">
+                        <a href="#"><p class="tiny"><i class="fab fa-instagram"></i> Instagram</p></a>
+                    </div>
+                </div>
+            </div>
+            <p>&copy; 2024 Griot Theatre Company. All rights reserved.</p>
+        </footer>
+    
+    </body>
+    
+    </html>
